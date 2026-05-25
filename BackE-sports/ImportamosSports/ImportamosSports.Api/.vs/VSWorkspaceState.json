@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\DTOs",
+    "\\Entities",
+    "\\Properties",
+    "\\Services",
+    "\\wwwroot",
+    "\\wwwroot\\img",
+    "\\wwwroot\\img\\productos"
+  ],
+  "SelectedNode": "\\Controllers\\CuponesController.cs",
+  "PreviewInSolutionExplorer": false
+}

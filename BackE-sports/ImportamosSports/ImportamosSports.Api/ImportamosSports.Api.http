@@ -1,0 +1,6 @@
+@ImportamosSports.Api_HostAddress = http://localhost:5020
+
+GET {{ImportamosSports.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
