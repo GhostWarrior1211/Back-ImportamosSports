@@ -1,85 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\",
+  "WorkspaceRootPath": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\CuponesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CuponesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoProductoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CambiarEstadoProductoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CambiarEstadoCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\UploadsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\CuponesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CuponesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoProductoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CambiarEstadoProductoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\UploadsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UploadsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CrearCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Cupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Cupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\Cupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\NotificacionesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\NotificacionesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\NotificacionesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\PedidosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\PedidosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PedidosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearPedidoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearPedidoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CrearPedidoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\ValidarCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\ValidarCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\ValidarCuponRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\Notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\DetallePedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\DetallePedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\DetallePedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\DetallePedidoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\DetallePedidoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\DetallePedidoRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\EstadoPedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\EstadoPedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\EstadoPedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,267 +90,248 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CambiarEstadoProductoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoProductoRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\CambiarEstadoProductoRequest.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoProductoRequest.cs",
-              "RelativeToolTip": "DTOs\\CambiarEstadoProductoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T03:56:54.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UploadsController.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\UploadsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UploadsController.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\UploadsController.cs",
-              "RelativeToolTip": "Controllers\\UploadsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvy4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T02:36:13.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CrearCuponRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearCuponRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\CrearCuponRequest.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearCuponRequest.cs",
-              "RelativeToolTip": "DTOs\\CrearCuponRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T00:54:06.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cupon.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Cupon.cs",
-              "RelativeDocumentMoniker": "Entities\\Cupon.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Cupon.cs",
-              "RelativeToolTip": "Entities\\Cupon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T00:53:39.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NotificacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\NotificacionesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NotificacionesController.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\NotificacionesController.cs",
-              "RelativeToolTip": "Controllers\\NotificacionesController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvzUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:23:53.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PedidosController.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\PedidosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\PedidosController.cs",
-              "RelativeToolTip": "Controllers\\PedidosController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvwsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:14:43.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:00:01.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CambiarEstadoCuponRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoCuponRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoCuponRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\CambiarEstadoCuponRequest.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoCuponRequest.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoCuponRequest.cs",
               "RelativeToolTip": "DTOs\\CambiarEstadoCuponRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T00:54:52.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "UploadsController.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\UploadsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadsController.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\UploadsController.cs",
+              "RelativeToolTip": "Controllers\\UploadsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvy4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T02:36:13.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CrearCuponRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearCuponRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\CrearCuponRequest.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearCuponRequest.cs",
+              "RelativeToolTip": "DTOs\\CrearCuponRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T00:54:06.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CambiarEstadoProductoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoProductoRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\CambiarEstadoProductoRequest.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CambiarEstadoProductoRequest.cs",
+              "RelativeToolTip": "DTOs\\CambiarEstadoProductoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T03:56:54.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cupon.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Cupon.cs",
+              "RelativeDocumentMoniker": "Entities\\Cupon.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Cupon.cs",
+              "RelativeToolTip": "Entities\\Cupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T00:53:39.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\NotificacionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificacionesController.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\NotificacionesController.cs",
+              "RelativeToolTip": "Controllers\\NotificacionesController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvzUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T23:23:53.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T23:14:43.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T23:00:01.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CuponesController.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\CuponesController.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\CuponesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CuponesController.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\CuponesController.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\CuponesController.cs",
               "RelativeToolTip": "Controllers\\CuponesController.cs",
               "ViewState": "AgIAAMAAAAAAAAAAAADwv88AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T00:55:45.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T00:55:45.318Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "Controllers\\ProductosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T02:18:10.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T02:18:10.732Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "Notificacion.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Notificacion.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Notificacion.cs",
               "RelativeDocumentMoniker": "Entities\\Notificacion.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Notificacion.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Notificacion.cs",
               "RelativeToolTip": "Entities\\Notificacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:22:01.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T23:22:01.283Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T02:23:35.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T02:23:35.625Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAKIAAAAAAAAAAADwv3UAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:13:54.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T23:13:54.196Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Entities\\Producto.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Producto.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Producto.cs",
               "RelativeToolTip": "Entities\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T02:23:56.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T02:23:56.802Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Pedido.cs",
               "RelativeDocumentMoniker": "Entities\\Pedido.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\Pedido.cs",
               "RelativeToolTip": "Entities\\Pedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:12:25.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T23:12:25.813Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "CrearPedidoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearPedidoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearPedidoRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\CrearPedidoRequest.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearPedidoRequest.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\CrearPedidoRequest.cs",
               "RelativeToolTip": "DTOs\\CrearPedidoRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:13:14.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T23:13:14.814Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ValidarCuponRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\ValidarCuponRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\ValidarCuponRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\ValidarCuponRequest.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\ValidarCuponRequest.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\ValidarCuponRequest.cs",
               "RelativeToolTip": "DTOs\\ValidarCuponRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T00:54:22.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T00:54:22.615Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "DetallePedidoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\DetallePedidoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\DetallePedidoRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\DetallePedidoRequest.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\DetallePedidoRequest.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\DTOs\\DetallePedidoRequest.cs",
               "RelativeToolTip": "DTOs\\DetallePedidoRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:13:28.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T23:13:28.201Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "DetallePedido.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\DetallePedido.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\DetallePedido.cs",
               "RelativeDocumentMoniker": "Entities\\DetallePedido.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\DetallePedido.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\DetallePedido.cs",
               "RelativeToolTip": "Entities\\DetallePedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:13:01.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T23:13:01.332Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "EstadoPedido.cs",
-              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\EstadoPedido.cs",
+              "DocumentMoniker": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\EstadoPedido.cs",
               "RelativeDocumentMoniker": "Entities\\EstadoPedido.cs",
-              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\EstadoPedido.cs",
+              "ToolTip": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\Entities\\EstadoPedido.cs",
               "RelativeToolTip": "Entities\\EstadoPedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T23:12:12.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T23:12:12.217Z"
             }
           ]
         }
