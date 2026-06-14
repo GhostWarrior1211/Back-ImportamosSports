@@ -1,5 +1,0 @@
-wwwroot\img\productos\007a1c8c-5dd3-492a-b8cf-cdef3ab83f16.jpg
-wwwroot\img\productos\568e6164-7fe0-4db7-9764-21d5a6f36e7d.png
-wwwroot\img\productos\687086b4-d515-45a0-8530-d589dd1f34a0.jpg
-wwwroot\img\productos\b052e772-5470-4b0c-895a-20bcd29c80e7.jpg
-wwwroot\img\productos\e1127606-f30c-4222-82c8-4f59af6eb4f7.jpg

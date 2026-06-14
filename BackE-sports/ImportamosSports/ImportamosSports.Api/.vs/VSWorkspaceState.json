@@ -1,15 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin\\Debug",
+    "\\bin\\Release",
     "\\Controllers",
     "\\Data",
     "\\DTOs",
     "\\Entities",
-    "\\Properties",
     "\\Services",
-    "\\wwwroot",
-    "\\wwwroot\\img",
-    "\\wwwroot\\img\\productos"
+    "\\wwwroot\\img"
   ],
+  "SelectedNode": "\\Services\\WhatsAppService.cs",
   "PreviewInSolutionExplorer": false
 }

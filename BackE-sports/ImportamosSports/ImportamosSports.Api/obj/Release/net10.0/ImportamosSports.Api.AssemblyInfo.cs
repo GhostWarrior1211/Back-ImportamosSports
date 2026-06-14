@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImportamosSports.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9262e8932b8a910b9c803e82c16f007e494ff8ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d84d4ace0f7015824a8beaf1b422b32057d55ded")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImportamosSports.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImportamosSports.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

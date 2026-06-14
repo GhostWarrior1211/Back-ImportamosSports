@@ -22,6 +22,43 @@ namespace ImportamosSports.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ImportamosSports.Api.Entities.AsesorVenta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Activo")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Apellidos")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("FotoUrl")
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
+                    b.Property<string>("Nombres")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AsesorVenta", (string)null);
+                });
+
             modelBuilder.Entity("ImportamosSports.Api.Entities.Cupon", b =>
                 {
                     b.Property<int>("Id")
@@ -83,6 +120,9 @@ namespace ImportamosSports.Api.Migrations
                     b.Property<decimal>("SubTotal")
                         .HasColumnType("decimal(10,2)");
 
+                    b.Property<decimal>("TallaUs")
+                        .HasColumnType("decimal(4,1)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("PedidoId");
@@ -134,6 +174,11 @@ namespace ImportamosSports.Api.Migrations
                         {
                             Id = 5,
                             Nombre = "Entregado"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Nombre = "Cancelado"
                         });
                 });
 
@@ -224,11 +269,25 @@ namespace ImportamosSports.Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("AsesorVentaId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("CuponId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("DescuentoAplicado")
                         .HasColumnType("decimal(10,2)");
+
+                    b.Property<string>("DireccionFiscalFactura")
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
+                    b.Property<string>("EstadoPago")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasDefaultValue("Pendiente");
 
                     b.Property<int>("EstadoPedidoId")
                         .HasColumnType("int");
@@ -239,8 +298,45 @@ namespace ImportamosSports.Api.Migrations
                     b.Property<decimal>("Igv")
                         .HasColumnType("decimal(10,2)");
 
+                    b.Property<string>("MetodoPago")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasDefaultValue("Tarjeta");
+
+                    b.Property<int>("NumeroComprobante")
+                        .HasColumnType("int");
+
+                    b.Property<string>("NumeroOperacion")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("ObservacionPago")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("RazonSocialFactura")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("RucFactura")
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
+
+                    b.Property<string>("SerieComprobante")
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
                     b.Property<decimal>("Subtotal")
                         .HasColumnType("decimal(10,2)");
+
+                    b.Property<string>("TipoComprobante")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasDefaultValue("Boleta");
 
                     b.Property<decimal>("Total")
                         .HasColumnType("decimal(10,2)");
@@ -249,6 +345,8 @@ namespace ImportamosSports.Api.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AsesorVentaId");
 
                     b.HasIndex("CuponId");
 
@@ -299,6 +397,30 @@ namespace ImportamosSports.Api.Migrations
                     b.HasIndex("MarcaId");
 
                     b.ToTable("Producto", (string)null);
+                });
+
+            modelBuilder.Entity("ImportamosSports.Api.Entities.ProductoTalla", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TallaUs")
+                        .HasColumnType("decimal(4,1)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductoId");
+
+                    b.ToTable("ProductoTalla", (string)null);
                 });
 
             modelBuilder.Entity("ImportamosSports.Api.Entities.Rol", b =>
@@ -427,6 +549,11 @@ namespace ImportamosSports.Api.Migrations
 
             modelBuilder.Entity("ImportamosSports.Api.Entities.Pedido", b =>
                 {
+                    b.HasOne("ImportamosSports.Api.Entities.AsesorVenta", "AsesorVenta")
+                        .WithMany()
+                        .HasForeignKey("AsesorVentaId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
                     b.HasOne("ImportamosSports.Api.Entities.Cupon", "Cupon")
                         .WithMany()
                         .HasForeignKey("CuponId")
@@ -444,6 +571,8 @@ namespace ImportamosSports.Api.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("AsesorVenta");
+
                     b.Navigation("Cupon");
 
                     b.Navigation("EstadoPedido");
@@ -460,6 +589,17 @@ namespace ImportamosSports.Api.Migrations
                         .IsRequired();
 
                     b.Navigation("Marca");
+                });
+
+            modelBuilder.Entity("ImportamosSports.Api.Entities.ProductoTalla", b =>
+                {
+                    b.HasOne("ImportamosSports.Api.Entities.Producto", "Producto")
+                        .WithMany("Tallas")
+                        .HasForeignKey("ProductoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Producto");
                 });
 
             modelBuilder.Entity("ImportamosSports.Api.Entities.Usuario", b =>
@@ -486,6 +626,11 @@ namespace ImportamosSports.Api.Migrations
             modelBuilder.Entity("ImportamosSports.Api.Entities.Pedido", b =>
                 {
                     b.Navigation("Detalles");
+                });
+
+            modelBuilder.Entity("ImportamosSports.Api.Entities.Producto", b =>
+                {
+                    b.Navigation("Tallas");
                 });
 
             modelBuilder.Entity("ImportamosSports.Api.Entities.Rol", b =>

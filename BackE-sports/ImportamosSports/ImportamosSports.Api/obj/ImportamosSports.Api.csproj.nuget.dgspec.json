@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj": {}
+    "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj": {
+    "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj",
+        "projectUniqueName": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj",
         "projectName": "ImportamosSports.Api",
-        "projectPath": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj",
+        "projectPath": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\ImportamosSports.Api.csproj",
         "packagesPath": "C:\\Users\\GodGhost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GodGhost\\Desktop\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\obj\\",
+        "outputPath": "C:\\Users\\GodGhost\\Desktop\\Repos Trabajo\\Back-ImportamosSports\\BackE-sports\\ImportamosSports\\ImportamosSports.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

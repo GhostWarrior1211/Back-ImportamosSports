@@ -23,7 +23,34 @@ public class ProductosController : ControllerBase
     {
         var productos = await _context.Productos
             .Include(p => p.Marca)
+            .Include(p => p.Tallas)
             .Where(p => p.Activo)
+            .Select(p => new
+            {
+                id = p.Id,
+                nombre = p.Nombre,
+                descripcion = p.Descripcion,
+                precio = p.Precio,
+                stock = p.Stock,
+                imagenUrl = p.ImagenUrl,
+                activo = p.Activo,
+                marcaId = p.MarcaId,
+                marca = p.Marca == null ? null : new
+                {
+                    id = p.Marca.Id,
+                    nombre = p.Marca.Nombre
+                },
+                tallas = p.Tallas
+                    .OrderBy(t => t.TallaUs)
+                    .Select(t => new
+                    {
+                        id = t.Id,
+                        productoId = t.ProductoId,
+                        tallaUs = t.TallaUs,
+                        stock = t.Stock
+                    })
+                    .ToList()
+            })
             .ToListAsync();
 
         return Ok(productos);
@@ -35,18 +62,33 @@ public class ProductosController : ControllerBase
     {
         var productos = await _context.Productos
             .Include(p => p.Marca)
+            .Include(p => p.Tallas)
             .Select(p => new
             {
-                p.Id,
-                p.Nombre,
-                p.Descripcion,
-                p.Precio,
-                p.Stock,
-                p.ImagenUrl,
-                p.Activo,
-                p.MarcaId,
-                Marca = p.Marca,
-                TienePedidos = _context.DetallesPedido.Any(d => d.ProductoId == p.Id)
+                id = p.Id,
+                nombre = p.Nombre,
+                descripcion = p.Descripcion,
+                precio = p.Precio,
+                stock = p.Stock,
+                imagenUrl = p.ImagenUrl,
+                activo = p.Activo,
+                marcaId = p.MarcaId,
+                marca = p.Marca == null ? null : new
+                {
+                    id = p.Marca.Id,
+                    nombre = p.Marca.Nombre
+                },
+                tallas = p.Tallas
+                    .OrderBy(t => t.TallaUs)
+                    .Select(t => new
+                    {
+                        id = t.Id,
+                        productoId = t.ProductoId,
+                        tallaUs = t.TallaUs,
+                        stock = t.Stock
+                    })
+                    .ToList(),
+                tienePedidos = _context.DetallesPedido.Any(d => d.ProductoId == p.Id)
             })
             .ToListAsync();
 
@@ -54,11 +96,39 @@ public class ProductosController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Producto>> GetProducto(int id)
+    public async Task<ActionResult> GetProducto(int id)
     {
         var producto = await _context.Productos
             .Include(p => p.Marca)
-            .FirstOrDefaultAsync(p => p.Id == id);
+            .Include(p => p.Tallas)
+            .Where(p => p.Id == id)
+            .Select(p => new
+            {
+                id = p.Id,
+                nombre = p.Nombre,
+                descripcion = p.Descripcion,
+                precio = p.Precio,
+                stock = p.Stock,
+                imagenUrl = p.ImagenUrl,
+                activo = p.Activo,
+                marcaId = p.MarcaId,
+                marca = p.Marca == null ? null : new
+                {
+                    id = p.Marca.Id,
+                    nombre = p.Marca.Nombre
+                },
+                tallas = p.Tallas
+                    .OrderBy(t => t.TallaUs)
+                    .Select(t => new
+                    {
+                        id = t.Id,
+                        productoId = t.ProductoId,
+                        tallaUs = t.TallaUs,
+                        stock = t.Stock
+                    })
+                    .ToList()
+            })
+            .FirstOrDefaultAsync();
 
         if (producto == null)
             return NotFound("Producto no encontrado.");
@@ -74,8 +144,35 @@ public class ProductosController : ControllerBase
         if (!marcaExiste)
             return BadRequest("La marca no existe.");
 
+        if (producto.Stock <= 0)
+            return BadRequest("El stock debe ser mayor a 0.");
+
+        if (producto.Tallas == null || !producto.Tallas.Any())
+            return BadRequest("Debes asignar stock por tallas.");
+
+        var sumaTallas = producto.Tallas.Sum(t => t.Stock);
+
+        if (sumaTallas != producto.Stock)
+            return BadRequest($"La suma de tallas debe ser igual al stock total. Stock: {producto.Stock}, tallas: {sumaTallas}");
+
+        var tallasDuplicadas = producto.Tallas
+            .GroupBy(t => t.TallaUs)
+            .Any(g => g.Count() > 1);
+
+        if (tallasDuplicadas)
+            return BadRequest("No puedes repetir la misma talla.");
+
         producto.Id = 0;
         producto.Marca = null;
+
+        producto.Tallas = producto.Tallas
+            .Where(t => t.Stock > 0)
+            .Select(t => new ProductoTalla
+            {
+                TallaUs = t.TallaUs,
+                Stock = t.Stock
+            })
+            .ToList();
 
         _context.Productos.Add(producto);
         await _context.SaveChangesAsync();
@@ -90,13 +187,34 @@ public class ProductosController : ControllerBase
         if (id != producto.Id)
             return BadRequest("El id del producto no coincide.");
 
-        var productoDb = await _context.Productos.FindAsync(id);
+        var productoDb = await _context.Productos
+            .Include(p => p.Tallas)
+            .FirstOrDefaultAsync(p => p.Id == id);
+
         if (productoDb == null)
             return NotFound("Producto no encontrado.");
 
         var marcaExiste = await _context.Marcas.AnyAsync(m => m.Id == producto.MarcaId);
         if (!marcaExiste)
             return BadRequest("La marca no existe.");
+
+        if (producto.Stock <= 0)
+            return BadRequest("El stock debe ser mayor a 0.");
+
+        if (producto.Tallas == null || !producto.Tallas.Any())
+            return BadRequest("Debes asignar stock por tallas.");
+
+        var sumaTallas = producto.Tallas.Sum(t => t.Stock);
+
+        if (sumaTallas != producto.Stock)
+            return BadRequest($"La suma de tallas debe ser igual al stock total. Stock: {producto.Stock}, tallas: {sumaTallas}");
+
+        var tallasDuplicadas = producto.Tallas
+            .GroupBy(t => t.TallaUs)
+            .Any(g => g.Count() > 1);
+
+        if (tallasDuplicadas)
+            return BadRequest("No puedes repetir la misma talla.");
 
         productoDb.Nombre = producto.Nombre;
         productoDb.Descripcion = producto.Descripcion;
@@ -105,6 +223,18 @@ public class ProductosController : ControllerBase
         productoDb.ImagenUrl = producto.ImagenUrl;
         productoDb.Activo = producto.Activo;
         productoDb.MarcaId = producto.MarcaId;
+
+        _context.ProductoTallas.RemoveRange(productoDb.Tallas);
+
+        productoDb.Tallas = producto.Tallas
+            .Where(t => t.Stock > 0)
+            .Select(t => new ProductoTalla
+            {
+                ProductoId = productoDb.Id,
+                TallaUs = t.TallaUs,
+                Stock = t.Stock
+            })
+            .ToList();
 
         await _context.SaveChangesAsync();
 

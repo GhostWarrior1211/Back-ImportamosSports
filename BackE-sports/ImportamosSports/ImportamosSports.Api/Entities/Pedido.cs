@@ -20,6 +20,19 @@ public class Pedido
 
     public int? CuponId { get; set; }
     public Cupon? Cupon { get; set; }
+    public string MetodoPago { get; set; } = "Tarjeta";
+    public string EstadoPago { get; set; } = "Pendiente";
+    public int? AsesorVentaId { get; set; }
+    public string? ObservacionPago { get; set; }
+    public string? NumeroOperacion { get; set; }
 
+    public AsesorVenta? AsesorVenta { get; set; }
+    public string TipoComprobante { get; set; } = "Boleta";
+    public string? RucFactura { get; set; }
+    public string? RazonSocialFactura { get; set; }
+    public string? DireccionFiscalFactura { get; set; }
+
+    public string? SerieComprobante { get; set; }
+    public int NumeroComprobante { get; set; }
     public ICollection<DetallePedido> Detalles { get; set; } = new List<DetallePedido>();
 }

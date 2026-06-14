@@ -317,7 +317,6 @@ C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\Impor
 C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\ImportamosSports\ImportamosSports.Api\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\ImportamosSports\ImportamosSports.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\ImportamosSports\ImportamosSports.Api\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\ImportamosSports\ImportamosSports.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\ImportamosSports\ImportamosSports.Api\obj\Debug\net10.0\Importam.44354DFD.Up2Date
 C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\ImportamosSports\ImportamosSports.Api\obj\Debug\net10.0\ImportamosSports.Api.dll
 C:\Users\GodGhost\Desktop\Repos Trabajo\Back-ImportamosSports\BackE-sports\ImportamosSports\ImportamosSports.Api\obj\Debug\net10.0\refint\ImportamosSports.Api.dll

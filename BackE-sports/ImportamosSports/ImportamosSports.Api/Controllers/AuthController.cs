@@ -27,10 +27,13 @@ public class AuthController : ControllerBase
     {
         var usuario = await _context.Usuarios
             .Include(u => u.Rol)
-            .FirstOrDefaultAsync(u => u.Correo == request.Correo && u.Clave == request.Clave && u.Activo);
+            .FirstOrDefaultAsync(u => u.Correo == request.Correo && u.Clave == request.Clave);
 
         if (usuario == null)
             return Unauthorized("Correo o clave incorrectos.");
+
+        if (!usuario.Activo)
+            return Unauthorized("La cuenta se encuentra desactivada.");
 
         var token = _jwtService.GenerarToken(usuario);
 

@@ -12,4 +12,6 @@ public class Producto
 
     public int MarcaId { get; set; }
     public Marca? Marca { get; set; }
+
+    public ICollection<ProductoTalla> Tallas { get; set; } = new List<ProductoTalla>();
 }

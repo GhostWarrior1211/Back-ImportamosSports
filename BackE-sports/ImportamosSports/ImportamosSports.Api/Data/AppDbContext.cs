@@ -18,6 +18,8 @@ public class AppDbContext : DbContext
     public DbSet<DetallePedido> DetallesPedido => Set<DetallePedido>();
     public DbSet<Notificacion> Notificaciones => Set<Notificacion>();
     public DbSet<Cupon> Cupones => Set<Cupon>();
+    public DbSet<AsesorVenta> AsesoresVenta => Set<AsesorVenta>();
+    public DbSet<ProductoTalla> ProductoTallas => Set<ProductoTalla>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -101,6 +103,21 @@ public class AppDbContext : DbContext
 
         modelBuilder.Entity<Pedido>(entity =>
         {
+            entity.Property(e => e.TipoComprobante)
+              .HasMaxLength(20)
+              .HasDefaultValue("Boleta");
+
+            entity.Property(e => e.RucFactura)
+                  .HasMaxLength(11);
+
+            entity.Property(e => e.RazonSocialFactura)
+                  .HasMaxLength(200);
+
+            entity.Property(e => e.DireccionFiscalFactura)
+                  .HasMaxLength(300);
+
+            entity.Property(e => e.SerieComprobante)
+                  .HasMaxLength(10);
             entity.ToTable("Pedido");
             entity.HasKey(e => e.Id);
 
@@ -108,6 +125,17 @@ public class AppDbContext : DbContext
             entity.Property(e => e.DescuentoAplicado).HasColumnType("decimal(10,2)");
             entity.Property(e => e.Igv).HasColumnType("decimal(10,2)");
             entity.Property(e => e.Total).HasColumnType("decimal(10,2)");
+            entity.Property(e => e.MetodoPago).HasMaxLength(50).HasDefaultValue("Tarjeta");
+
+            entity.Property(e => e.EstadoPago)
+                  .HasMaxLength(50)
+                  .HasDefaultValue("Pendiente");
+
+            entity.Property(e => e.ObservacionPago)
+                  .HasMaxLength(500);
+
+            entity.Property(e => e.NumeroOperacion)
+                  .HasMaxLength(100);
 
             entity.HasOne(e => e.Usuario)
                   .WithMany()
@@ -121,14 +149,26 @@ public class AppDbContext : DbContext
                   .WithMany()
                   .HasForeignKey(e => e.CuponId)
                   .OnDelete(DeleteBehavior.SetNull);
+
+            entity.HasOne(e => e.AsesorVenta)
+                  .WithMany()
+                  .HasForeignKey(e => e.AsesorVentaId)
+                  .OnDelete(DeleteBehavior.SetNull);
         });
 
         modelBuilder.Entity<DetallePedido>(entity =>
         {
             entity.ToTable("DetallePedido");
             entity.HasKey(e => e.Id);
-            entity.Property(e => e.PrecioUnitario).HasColumnType("decimal(10,2)");
-            entity.Property(e => e.SubTotal).HasColumnType("decimal(10,2)");
+
+            entity.Property(e => e.PrecioUnitario)
+                  .HasColumnType("decimal(10,2)");
+
+            entity.Property(e => e.SubTotal)
+                  .HasColumnType("decimal(10,2)");
+
+            entity.Property(e => e.TallaUs)
+                  .HasColumnType("decimal(4,1)");
 
             entity.HasOne(e => e.Pedido)
                   .WithMany(p => p.Detalles)
@@ -144,7 +184,8 @@ public class AppDbContext : DbContext
             new EstadoPedido { Id = 2, Nombre = "Pagado" },
             new EstadoPedido { Id = 3, Nombre = "En preparación" },
             new EstadoPedido { Id = 4, Nombre = "En camino" },
-            new EstadoPedido { Id = 5, Nombre = "Entregado" }
+            new EstadoPedido { Id = 5, Nombre = "Entregado" },
+            new EstadoPedido { Id = 6, Nombre = "Cancelado" }
         );
         modelBuilder.Entity<Notificacion>(entity =>
         {
@@ -175,6 +216,42 @@ public class AppDbContext : DbContext
 
             entity.Property(e => e.CompraMinima)
                   .HasColumnType("decimal(10,2)");
+        });
+        modelBuilder.Entity<AsesorVenta>(entity =>
+        {
+            entity.ToTable("AsesorVenta");
+            entity.HasKey(e => e.Id);
+
+            entity.Property(e => e.Nombres)
+                  .HasMaxLength(100)
+                  .IsRequired();
+
+            entity.Property(e => e.Apellidos)
+                  .HasMaxLength(100)
+                  .IsRequired();
+
+            entity.Property(e => e.Telefono)
+                  .HasMaxLength(20)
+                  .IsRequired();
+
+            entity.Property(e => e.FotoUrl)
+                  .HasMaxLength(300);
+
+            entity.Property(e => e.Activo)
+                  .HasDefaultValue(true);
+        });
+        modelBuilder.Entity<ProductoTalla>(entity =>
+        {
+            entity.ToTable("ProductoTalla");
+            entity.HasKey(e => e.Id);
+
+            entity.Property(e => e.TallaUs)
+                  .HasColumnType("decimal(4,1)");
+
+            entity.HasOne(e => e.Producto)
+                  .WithMany(p => p.Tallas)
+                  .HasForeignKey(e => e.ProductoId)
+                  .OnDelete(DeleteBehavior.Cascade);
         });
     }
 }
